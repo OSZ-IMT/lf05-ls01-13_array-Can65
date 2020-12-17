@@ -5,7 +5,7 @@ class Fahrkartenautomat {
     //Antwort zur Frage 7.1:Durch die Nutzung von Arrays kann man schneller Werte im Menue hinzufuegen, was die Performance und die Programmierung   von neuen Tickets schneller macht.
     public static void main(String[] args) {
         Scanner tastatur = new Scanner(System.in);
-        String[] answer = {"Ja", "Yes", "ja", "jo", "Jo", "Ja ich will", "yes", "Klar Diggah", "klar diggah", "Die Magische Miesmuschel sagt ja", "YES WE CAN"};
+        String[] answer = {"Ja", "Yes", "ja"};
         kasse(tastatur, answer);
     }
     protected static void kasse(Scanner tastatur,String[] answer) {
